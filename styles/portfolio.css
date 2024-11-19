@@ -7,12 +7,13 @@ body {
 }
 
 /* Navigation styling */
-header nav {
+header nav  {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #fff; /* Background color if needed */
+    margin:5px 200px;
+     /* Background color if needed */
 }
 
 /* Styling the links */
@@ -64,6 +65,11 @@ nav >ul{
     font-size: 30px;
     color: #333;
 }
+/* Style for highlighted letters */
+.highlight {
+    color: #ff6600; /* The color of the 'Hire Me' button */
+}
+
 
 /* Ensuring everything aligns in one row */
 .nav-links li:last-child {
@@ -73,4 +79,19 @@ nav >ul{
 /* Ensure button aligns with links */
 .nav-links li button {
     margin-top: 0; /* Fixes extra space above the button */
+}
+
+
+/* Header releted  work*/
+header{
+    background-color:#FFF8F3 ;
+}
+.banner{
+    padding: 10px 10px 10px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+ 
+    width: 700px;
 }
