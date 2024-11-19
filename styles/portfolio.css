@@ -1,0 +1,76 @@
+/* Base styling */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   /* Optional light background color */
+}
+
+/* Navigation styling */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff; /* Background color if needed */
+}
+
+/* Styling the links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for links */
+.nav-links li a:hover {
+    color: #ff6600; /* Change to your desired hover color */
+}
+
+/* Hire Me button styling */
+.hire-me {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for Hire Me button */
+.hire-me:hover {
+    background-color: #e65c00;
+}
+
+/* Logo styling */
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: #333;
+}
+
+/* Ensuring everything aligns in one row */
+.nav-links li:last-child {
+    margin-right: 0; /* Removes the margin on the last item */
+}
+
+/* Ensure button aligns with links */
+.nav-links li button {
+    margin-top: 0; /* Fixes extra space above the button */
+}
