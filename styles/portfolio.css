@@ -85,9 +85,10 @@ nav >ul{
 /* Header releted  work*/
 header{
     background-color:#fef6f2;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+
     background-repeat:no-repeat;
-    background-position:bottom right ;
+    background-position:bottom right ,top left;
 }
 .banner{
     padding: 10px 10px 10px 150px;
